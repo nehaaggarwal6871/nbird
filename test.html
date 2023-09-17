@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta3/css/all.min.css"> -->
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+</head>
+<body>
+  <!-- <div class="product-list" id="productList"> -->
+    <!-- Product cards will be dynamically added here -->
+    <section id="product1" class="section-p1">
+      <h2>New Arrivals</h2>
+      <p>Modern Collection Trendy Design</p>
+      <div class="pro-container" id="products-arrival">
+        <!-- js -->
+      </div>
+    </section>
+    
+</div>
+<script src="product.js"></script>
+<script>
+  // Function to create a product card element
+function createProductCard(product) {
+    const productCard = document.createElement('div');
+    productCard.classList.add('pro');
+    productCard.innerHTML = `
+        <img src="${product.image}" alt="${product.name}">
+        <div class="des">
+            <span>${product.name}</span>
+            <h5>${product.description}</h5>
+            <div class="star">
+              <i class="fas fa-star review"></i>
+              <i class="fas fa-star review"></i>
+              <i class="fas fa-star review"></i>
+              <i class="fas fa-star review"></i>
+              <i class="fas fa-star review"></i>
+            </div>
+            <h4>${product.price} <del>${product.old_price}</del></h4>
+            <div class="order">
+              <button>Order Now</button>
+              <a href="#">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+        </div>
+        
+    `;
+    return productCard;
+}
+
+function displayProducts() {
+    const productList = document.getElementById('products-arrival');
+    products.forEach(product => {
+        const productCard = createProductCard(product);
+        productList.appendChild(productCard);
+    });
+}
+displayProducts();
+
+</script>
+</body>
+</html>
