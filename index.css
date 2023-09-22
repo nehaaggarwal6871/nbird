@@ -649,6 +649,12 @@ footer .follow i:hover,footer a:hover{
 
 /* Media Query */
 
+@media (max-width:1540px) {
+    #hero{
+        height: 80vh;
+    }
+}
+
 @media (max-width:799px) {
     .section-p1{
         padding: 40px 40px;
@@ -812,8 +818,53 @@ footer .follow i:hover,footer a:hover{
         justify-content: center;
     }
     #section-p1{
-        padding:  20px;
+        padding:   20px;
     }
     
-
+    #product1 .pro{
+        width: 100%;
+    }
+    #banner{
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 50vh;
+        padding-right: 8px;
+        
+    }
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+        
+    }
+    #sm-banner .banner-box h4 {
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 7px;
+    }
+    #sm-banner .banner-box h3 {
+        font-size: 25px;
+        font-weight: 700;
+        
+        letter-spacing: 0.5px;
+    }
+    #sm-banner .banner-box span {
+        font-size: 14px;
+        /* padding-right: -20px; */
+        font-weight: 500;
+        /* letter-spacing: 0.5px; */
+        /* justify-content: center; */
+        /* text-align: center; */
+        padding-bottom: 12px;
+    }
+    #banner3 {
+        padding: 0 35px;
+    }
+    #banner3 .banner-box {
+        
+        width: 100%;
+        
+    }
+    #newsletter .form {
+        width: 100%;
+    }
 }
