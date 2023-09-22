@@ -568,3 +568,68 @@ body{
     border-bottom-left-radius: 0;
 }
 
+/* Footer Page */
+
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url('./Images/banner/b8.png');
+    background-color: #041e42;
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+    /* color: #606063; */
+
+}
+
+footer .logo{
+    margin-bottom: 10px;
+    width: 120px;
+    height: 60px;
+    
+}
+
+
+
+footer h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+    color: #606063;
+}
+
+footer p{
+    font-size: 16px;
+
+    color: #606063;
+    margin: 0 0 8px 0 ;
+}
+
+footer a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #818ea0;
+    margin-bottom: 10px;
+}
+
+
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #606063;
+    padding-right: 10px;
+}
+footer .follow i:hover,footer a:hover{
+    color: #a8dde3;
+}
+
