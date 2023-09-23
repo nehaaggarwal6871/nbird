@@ -82,8 +82,8 @@ function createProductCard(product) {
             </div>
             <h4>${product.price} <del>${product.old_price}</del></h4>
             <div class="order">
-              <button>Order Now</button>
-              <a href="#">
+              <button onclick="window.location.href = 'comingsoon.html';">Order Now</button>
+              <a href="comingsoon.html">
                 <i class="fas fa-shopping-cart"></i>
               </a>
             </div>
