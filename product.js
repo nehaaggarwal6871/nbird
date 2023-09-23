@@ -5,7 +5,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/6.png",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/2.png",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/3.png",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/4.png",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/1.png",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/2.png",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/1.png",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ var featured_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/6.png",
   },
 ];
 
@@ -109,7 +109,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/1.png",
   },
   {
     id: 2,
@@ -117,7 +117,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/6.png",
   },
   {
     id: 3,
@@ -125,7 +125,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/4.png",
   },
   {
     id: 4,
@@ -133,7 +133,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/2.png",
   },
   {
     id: 5,
@@ -141,7 +141,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/1.png",
   },
   {
     id: 6,
@@ -149,7 +149,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/3.png",
   },
   {
     id: 7,
@@ -157,7 +157,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/4.png",
   },
   {
     id: 8,
@@ -165,7 +165,7 @@ var arrival_products = [
     description: "Avengers Logo Tshirt",
     price: "₹399",
     old_price: "₹599",
-    image: "./Images/products/p1.png",
+    image: "./Images/products/2.png",
   },
 ];
 
