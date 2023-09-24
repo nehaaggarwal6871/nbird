@@ -758,6 +758,16 @@ footer .follow i:hover,footer a:hover{
         align-items: center;
         justify-content: center;
     }
+
+    #shop-category .shop-cat{
+        justify-content: center;
+
+    }
+    #shop-category .shop-cat .fe-box{
+        margin: 15px 10px;
+    }
+
+
     #feature {
         /* display: flex; */
         /* align-items: center; */
