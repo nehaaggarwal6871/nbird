@@ -207,13 +207,19 @@ body{
 
 /* Shop by category */
 #shop-category{
+
+    text-align: center;
+}
+
+.shop-cat{
     display: flex;
     align-items: center;
+
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#shop-category .fe-box{
+#shop-category .shop-cat .fe-box{
     width: 200px;
     text-align: center;
     padding: 25px 15px;
