@@ -15,3 +15,47 @@
     background-repeat: no-repeat;
     
 }
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none ;
+    background-color: #f9943b;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+#prodetails{
+    display: flex;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between; 
+}
+.small-img-col{
+    flex: 24%;
+    cursor: pointer;
+    padding: 5px;
+    /* width: 24%; */
+}
+
+.small-img-col img{
+    width: 100%;
+}

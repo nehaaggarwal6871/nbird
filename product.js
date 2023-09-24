@@ -69,7 +69,7 @@ function createProductCard(product) {
   const productCard = document.createElement("div");
   productCard.classList.add("pro");
   productCard.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
+        <img src="${product.image}" alt="${product.name} " width="224" height="224">
         <div class="des">
             <span>${product.name}</span>
             <h5>${product.description}</h5>

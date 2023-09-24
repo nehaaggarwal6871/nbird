@@ -205,6 +205,28 @@ body{
     
 }
 
+/* Shop by category */
+#shop-category{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#shop-category .fe-box{
+    width: 200px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px  rgba(0, 0, 0, 0.03);
+    border: 1px solid #ccd1cc;
+    border-radius: 20px;
+    margin: 15px 0 ;
+}
+#shop-category .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
 /* Feature Section */
 #feature{
     display: flex;
