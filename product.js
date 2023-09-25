@@ -68,6 +68,9 @@ var featured_products = [
 function createProductCard(product) {
   const productCard = document.createElement("div");
   productCard.classList.add("pro");
+  productCard.addEventListener("click", function () {
+    window.location.href = "./single_product.html";
+  });
   productCard.innerHTML = `
         <img src="${product.image}" alt="${product.name} " width="224" height="224">
         <div class="des">
@@ -178,3 +181,7 @@ function displayArrivalProducts() {
 }
 displayArrivalProducts();
 
+// function showSingleProductImage() {
+
+// }
+// showSingleProductImage();

@@ -35,8 +35,13 @@
 
 }
 
+/* single-produtc.html */
+
 #prodetails{
     display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+
 }
 
 #prodetails .single-pro-image{
@@ -45,17 +50,87 @@
 
 }
 
-.small-img-group{
+#prodetails .small-img-group{
     display: flex;
     justify-content: space-between; 
 }
-.small-img-col{
+#prodetails .small-img-col{
     flex: 24%;
     cursor: pointer;
     padding: 5px;
     /* width: 24%; */
 }
 
-.small-img-col img{
+#prodetails .small-img-col img{
     width: 100%;
+}
+ 
+#prodetails .single-pro-details{
+    width: 50%;
+    padding: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details {
+    text-decoration: none;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-pro-details select:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    /* font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #fff; */
+    background-color: #088178;
+    color: #fff;
+    /* border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s ; */
+}
+
+#prodetails .single-pro-details p{
+    line-height: 25px;
+}
+
+
+@media (max-width:477px) {
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 0 ;
+    }
+    #prodetails .single-pro-details{
+        width: 100%;
+        
+    }
 }

@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="shop.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>Nbird Shop</title>
   </head>
   <body>
@@ -18,15 +17,14 @@
         <img
           src="./Images/logo.png"
           class="logo"
-          alt=""
+          alt
           width="130"
-          height="60"
-        />
+          height="60" />
       </a>
-      <div class="">
+      <div class>
         <ul id="navbar">
           <li>
-            <a  href="index.html">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
             <a class="active" href="shop.html">Shop</a>
@@ -44,7 +42,7 @@
           <li id="lg-bag">
             <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
           </li>
-          <a href="" id="close">
+          <a href id="close">
             <i class="fas fa-times"></i>
           </a>
         </ul>
@@ -54,34 +52,55 @@
         <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
-    
 
     <section id="prodetails" class="section-p1">
-        <div class="single-pro-image">
-            <img src="./Images/products/1.png" alt="" width="100%" id="MainImg" >
-            <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="./Images/products/1.png" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="./Images/products/2.png" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="./Images/products/3.png" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="./Images/products/4.png" alt="">
-                </div>
-            </div>
-
+      <div class="single-pro-image">
+        <img src="./Images/products/1.png" alt width="100%" id="MainImg">
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="./Images/products/1.png" class = "small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="./Images/products/2.png" class = "small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="./Images/products/3.png" class = "small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="./Images/products/4.png" class = "small-img" alt="">
+          </div>
         </div>
-        <div class="single-pro-details">
 
-            <h6><a href="./index.html">Home</a>/ T-shirt</h6>
-            <h4></h4>
-        </div>
+      </div>
+      <div class="single-pro-details">
+
+        <h6><a href="./index.html">Home</a>/ T-shirt</h6>
+        <h4>Avenger's Logo Tshirt</h4>
+        <h2> ₹399 <del>₹599</del></h2>
+        <select name id>
+          <option value>Select Size</option>
+          <option value>XS</option>
+          <option value>S</option>
+          <option value>M</option>
+          <option value>L</option>
+          <option value>XL</option><option value>XXL</option>
+        </select>
+        <input type="number">
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+          sequi velit autem, fugit, facilis qui laboriosam molestias placeat
+          ipsum odio pariatur cumque necessitatibus minus nulla doloribus maxime
+          hic aliquam commodi obcaecati. Tempore libero nostrum suscipit ipsa
+          quia sint inventore laboriosam maxime, voluptatibus omnis velit iusto
+          quos harum temporibus perspiciatis aliquam?</p>
+      </div>
     </section>
-
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Modern Collection Trendy Design</p>
+      <div class="pro-container" id="products-featured"></div>
+    </section>
 
     <!-- Newsletter -->
     <section id="newsletter" class="section-p1 ">
@@ -100,9 +119,9 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="col">
-        <img class="logo" src="./Images/logo.png" alt="" />
+        <img class="logo" src="./Images/logo.png" alt />
         <h4>Contact</h4>
-        
+
         <p><strong>Address:</strong> 669, Meerut Road,NH-58, Ghaziabad 201001</p>
 
         <p><strong>Phone</strong> +917217617529</p>
@@ -116,30 +135,45 @@
             <i class="fab fa-twitter"></i>
           </div>
         </div>
-        
+
       </div>
       <div class="col">
         <h4>About</h4>
-        <a href="">About Us</a>
-        <a href="">Delivery Information</a>
-        <a href="">Privacy Policy</a>
-        <a href="">Terms & Conditions</a>
-        <a href="">Contact Us</a>
+        <a href>About Us</a>
+        <a href>Delivery Information</a>
+        <a href>Privacy Policy</a>
+        <a href>Terms & Conditions</a>
+        <a href>Contact Us</a>
       </div>
       <div class="col">
         <h4>My Account</h4>
-        <a href="">Sign Up</a>
-        <a href="">Whatsapp Us</a>
-        <a href="">View Cart</a>
-        <a href="">My Wishilist</a>
-        <a href="">Help</a>
-        
+        <a href>Sign Up</a>
+        <a href>Whatsapp Us</a>
+        <a href>View Cart</a>
+        <a href>My Wishilist</a>
+        <a href>Help</a>
+
         <!-- Account Details -->
 
+      </footer>
+      <script>
+      var MainImg = document.getElementById('MainImg');
+      var smallimg = document.getElementsByClassName("small-img");
 
-    </footer>
-
-    <script src="product.js"></script>
-    <script src="script.js"></script>
-  </body>
-</html>
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      }
+      smallimg[1].onclick = function () {
+    MainImg.src = smallimg[1].src;
+  }
+  smallimg[2].onclick = function () {
+    MainImg.src = smallimg[2].src;
+  }
+  smallimg[3].onclick = function () {
+    MainImg.src = smallimg[3].src;
+  }
+    </script>
+      <script src="product.js"></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
